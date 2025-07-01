@@ -55,7 +55,8 @@ Attack Type                Description
 **1. Brute Force:-**
 - Manually trying every possible character combination to crack passwords and credentials
 - Using automation tools like Jhon The Ripper, Hydra, and Hashcat to try all possible combinations in just few minutes.
-(I have included the demonstration of how to crack password using Jhon The Ripper tool).
+- For example using the command `jhon --wordlist=/usr/share/wordlists/rockyou.txt file.txt` will crack the password that encrypts `file.txt`.
+Jhon The Ripper will use wordlist to try multiple password combos.
 
 **2. Dictionary Attack:-**
 - Guessing password or trying to crack a password using list of leaked passwords or commonly used passwords
@@ -72,5 +73,4 @@ Attack Type                Description
 
 ## Files Included
 - Screenshots of password strength checks
-- Demonstration of common password attacks
 - This README.md file
